@@ -29,6 +29,11 @@
 
 
 ---
+### Unzipping the apk
+
+Open the gitbook and follow the instruction
+
+---
 
 ### Files inside the apk
  
@@ -40,30 +45,21 @@
  - classes.dex
  - resources.arsc
 
-**Task**
 
-Try to read the AndroidManifest.xml 
 
 ---
 # Reversing our first app
-```
-apktool d filename -o ouputfolder
-```
 
-```
-apktool b filename -o output.apk
-```
+Open the gitbook and try to follow the apktool section
 
 
 
-**Task**
 
-Try to read the Smali
 
 ---
 # Reversing the App (Human-readable way)
 
- Open the gitbook
+ Open the gitbook and try to read the Reversing-the app section
 
 ---
 
@@ -162,7 +158,9 @@ open the gitbook Try to run the basic Frida command
 ---
 ### Hands on
 
-open the gitbook and try to do the task
+
+
+
 
 ---
 ## Task 1 
