@@ -191,7 +191,7 @@ open the gitbook and try to do the task
 ---
 ## Open the gitbook
 
-Open the gitbook and follow the Frida-gadget Section
+ follow the Frida-gadget Section
 ---
 
 
