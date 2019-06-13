@@ -5,14 +5,17 @@
 ## Topics 
 
 - Introduction to  apk
+- File inside the apk
 - Reversing the apps
+- frida
+- Dynamic  Binary Instrumentatation
+- Common Challenges while pentesting Android
 - Modes of operation
-- Installation Frida
-- Application of Frida
-- Frida Api for android
-- Demo
-- Common Android app defences
-- Python Binding for frida
+- Frida Installation(Hands-on)
+- Frida Common Api for Android 
+- Hands on
+- Frida Gadget
+- References
 
 
 ---
@@ -22,7 +25,7 @@
 > file [appname]
 
 
-![app](http://www.ryantzj.com/images/apk_1.jpg)
+![app](zip.jpg)
 
 
 ---
@@ -135,6 +138,10 @@ How we change the app logic ?
 - Not used in android
 ---
 
+## Frida Installation
+
+open the gitbook Try to install Frida 
+---
 ## Frida Basics
 
 open the gitbook Try to run the basic Frida command
@@ -183,8 +190,10 @@ open the gitbook and try to do the task
 - Sign the apk
 ---
 ## Open the gitbook
+
+Open the gitbook and follow the Frida-gadget Section
 ---
-## Andromeda (Demo-only)
+
 
 ---
 ### References
