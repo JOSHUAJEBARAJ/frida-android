@@ -72,15 +72,6 @@ Open the gitbook and try to follow the apktool section
 
 
 ---
-## What is instumentation?
-
-
-## Types of instrumentation
-
-- Source Instrumentation
-- Binary Instrumentation
-
----
 ## What is Dynamic Binary Instrumentation
 
 ## Types of Dynamic  Instrumentation
