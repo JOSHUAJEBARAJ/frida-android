@@ -19,7 +19,13 @@
 
 
 ---
+## Outcomes
 
+- Setting up the Frida
+- Learn Basic Frida Commands
+- Reverse Enginnering and Bypassing the apps 
+
+---
 # What is apk?
 
 > file [appname]
@@ -68,19 +74,21 @@ Open the gitbook and try to follow the apktool section
 
 - Dynamic binary instrumentation tool
 
-![inject-tool](https://cdn-images-1.medium.com/max/1200/1*k95Y339RMzb9zPVEEz-Z9g.png)
+![inject-tool](https://mk0resourcesinfm536w.kinstacdn.com/wp-content/uploads/CodeInjection01162014.gif)
 
 
 ---
 ## What is Dynamic Binary Instrumentation
 
-## Types of Dynamic  Instrumentation
+Types of Dynamic  Instrumentation
 
-- Injected
+1) Injected
 
-- Embeded
+2) Embeded
 
+---
 
+![frida](http://www.ryantzj.com/images/instrumentation_types.png)
 ---
 ## Why frida
 
@@ -101,28 +109,28 @@ How we change the app logic ?
 
 ---
 ## Common Challenges While pentsting android apps 
-- Root Bypassing
-- Anti Debugging
-- Anti Emulation
-- change Logic  
+1. Root Bypassing
+2. Anti Debugging
+3. Anti Emulation
+4. Bypassing App Logic 
 ---
 # Modes of operation
 
 ## Injected
-- spawn an existing process
-- hook to the running program
-- Requires the root access
+1. spawn an existing process
+2. hook to the running program
+3. Requires the root access
 
 ---
 
 ## Embeded
 
-- Frida-gadget  a shared library
+1. Frida-gadget  a shared library
 
 
 ## Preloaded
-- Using a dynamic linker feature like LD_PRELOAD or DYLD_INSERT_LIBRARIES
-- Not used in android
+1. Using a dynamic linker feature like LD_PRELOAD or DYLD_INSERT_LIBRARIES
+2. Not used in android
 ---
 
 ## Frida Installation
@@ -136,47 +144,60 @@ open the gitbook Try to run the basic Frida command
 
 ## Frida Api for Android
 
-- Java.perform - call the function
-- Java.use-use the particular class
-     >  var   main = Java.use("sg.vantagepoint.root.MainActivity");
+1. Java.perform - call the function
+2. Java.use-use the particular class
+     
+``` 
+ var   main = Java.use("sg.vantagepoint.root.MainActivity");
+```
+---
+3. .implementation-override the existing function
+       main.isDeviceRooted.implementation
+4. .overload-to use polymorphism
+       .overload(“datatype”).implementation
 
 ---
-- .implementation-override the existing function
-    >   main.isDeviceRooted.implementation
-- .overload-to use polymorphism
-       eg -.overload(“datatype”).implementation
+## Sample javascript payload
+``` javascript
+
+Java.perform(function() {
+
+        var   main = Java.use("sg.vantagepoint.root.MainActivity");
+
+       main.function-name.implementation = function() {
+            console.log("In function A");
+             return false;
+         }  
+   
+
+});
+
+```
+
+
+
 
 ---
 ### Hands on
 
 
-
-
-
 ---
-## Task 1 
+## Challenge
 
-![t1](https://media.makeameme.org/created/its-a-secret-y0nz9m.jpg)
-
----
-## Task 2
-
-![t2](https://i.kym-cdn.com/entries/icons/original/000/027/581/strange.jpg)
----
-## Task 3
-
-![t3](https://i.ytimg.com/vi/Jo_TDvQ9Qyg/maxresdefault.jpg)
+<video width="700" height="700" controls>
+  <source src="challenge.mp4" type="video/mp4">
+</video>
 
 ---
 ## Frida Gadget (Hooking Only)
 
-- Find device architecture
-- Reverse the app
-- Inject frida-gadget.
-- Injecting smali hook.
-- Add the 	permission
-- Repackage the pack
-- Sign the apk
+1. Find device architecture
+2. Reverse the app
+3. Inject frida-gadget.
+4. Injecting smali hook.
+5. Add the 	permission
+6. Repackage the pack
+7. Sign the apk
 ---
 ## Open the gitbook
 
@@ -197,4 +218,4 @@ open the gitbook Try to run the basic Frida command
 
 - https://www.frida.re/docs/android/
 
-- Frida Telegram group
+

@@ -1,0 +1,512 @@
+Summary for diva/classes.jar
+Decompiled with CFR 0_121
+
+
+android.support.v7.widget.LinearLayoutCompat
+----------------------------
+
+measureHorizontal(int int )
+  Unable to fully structure code
+measureVertical(int int )
+  Unable to fully structure code
+
+
+android.support.v7.widget.RecyclerView
+----------------------------
+
+createLayoutManager(android.content.Context java.lang.String android.util.AttributeSet int int )
+  Unable to fully structure code
+defaultOnMeasure(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+getScrapViewForPosition(int int boolean )
+  Unable to fully structure code
+recycleViewHolderInternal(android.support.v7.widget.RecyclerView$ViewHolder )
+  Unable to fully structure code
+
+
+android.support.design.widget.HeaderBehavior
+----------------------------
+
+onInterceptTouchEvent(android.support.design.widget.CoordinatorLayout V android.view.MotionEvent )
+  Unable to fully structure code
+onTouchEvent(android.support.design.widget.CoordinatorLayout V android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.design.widget.AppBarLayout
+----------------------------
+
+getDownNestedScrollRange()
+  Unable to fully structure code
+getTotalScrollRange()
+  Unable to fully structure code
+
+
+android.support.design.widget.CoordinatorLayout
+----------------------------
+
+performIntercept(android.view.MotionEvent int )
+  Unable to fully structure code
+dispatchOnDependentViewChanged(boolean )
+  Unable to fully structure code
+ensurePreDrawListener()
+  Unable to fully structure code
+getDesiredAnchoredChildRect(android.view.View int android.graphics.Rect android.graphics.Rect )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+onMeasure(int int )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.design.widget.SwipeDismissBehavior
+----------------------------
+
+onInterceptTouchEvent(android.support.design.widget.CoordinatorLayout V android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.design.widget.StateListAnimator
+----------------------------
+
+setState(int[] )
+  Unable to fully structure code
+
+
+android.support.v4.app.BackStackRecord
+----------------------------
+
+calculateFragments(android.util.SparseArray<android.support.v4.app.Fragment> android.util.SparseArray<android.support.v4.app.Fragment> )
+  Unable to fully structure code
+calculateBackFragments(android.util.SparseArray<android.support.v4.app.Fragment> android.util.SparseArray<android.support.v4.app.Fragment> )
+  Unable to fully structure code
+popFromBackStack(boolean android.support.v4.app.BackStackRecord$TransitionState android.util.SparseArray<android.support.v4.app.Fragment> android.util.SparseArray<android.support.v4.app.Fragment> )
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+
+
+android.support.v4.app.BundleCompatDonut
+----------------------------
+
+getBinder(android.os.Bundle java.lang.String )
+  Unable to fully structure code
+putBinder(android.os.Bundle java.lang.String android.os.IBinder )
+  Unable to fully structure code
+
+
+android.support.v4.app.FragmentActivity
+----------------------------
+
+viewToString(android.view.View )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[CASE]], but top level block is 0[TRYBLOCK]
+
+
+android.support.v4.app.FragmentManagerImpl
+----------------------------
+
+moveToState(android.support.v4.app.Fragment int int int boolean )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+
+
+android.support.v4.app.NotificationCompatApi21
+----------------------------
+
+getUnreadConversationFromBundle(android.os.Bundle android.support.v4.app.NotificationCompatBase$UnreadConversation$Factory android.support.v4.app.RemoteInputCompatBase$RemoteInput$Factory )
+  Unable to fully structure code
+
+
+android.support.v4.app.NotificationCompatJellybean
+----------------------------
+
+getExtras(android.app.Notification )
+  Unable to fully structure code
+
+
+android.support.v4.app.NotificationManagerCompat
+----------------------------
+
+processListenerQueue(android.support.v4.app.NotificationManagerCompat$SideChannelManager$ListenerRecord )
+  Unable to fully structure code
+
+
+android.support.v4.content.ModernAsyncTask
+----------------------------
+
+executeOnExecutor(java.util.concurrent.Executor Params[] )
+  Unable to fully structure code
+
+
+android.support.v4.content.ContentResolverCompat
+----------------------------
+
+query(android.content.ContentResolver android.net.Uri java.lang.String[] java.lang.String java.lang.String[] java.lang.String android.support.v4.os.CancellationSignal )
+  Unable to fully structure code
+
+
+android.support.v4.content.CursorLoader
+----------------------------
+
+loadInBackground()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 12[CATCHBLOCK]
+
+
+android.support.v4.content.FileProvider
+----------------------------
+
+getPathStrategy(android.content.Context java.lang.String )
+  Loose catch block
+
+
+android.support.v4.content.LocalBroadcastManager
+----------------------------
+
+sendBroadcast(android.content.Intent )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+unregisterReceiver(android.content.BroadcastReceiver )
+  Unable to fully structure code
+
+
+android.support.v4.graphics.ColorUtils
+----------------------------
+
+HSLToColor(float[] )
+  Unable to fully structure code
+
+
+android.support.v4.media.MediaMetadataCompat
+----------------------------
+
+getDescription()
+  Unable to fully structure code
+
+
+android.support.v4.media.RatingCompat
+----------------------------
+
+fromRating(java.lang.Object )
+  Unable to fully structure code
+
+
+android.support.v4.media.routing.MediaRouterJellybean
+----------------------------
+
+getDefaultRoute(java.lang.Object )
+  Loose catch block
+
+
+android.support.v4.media.routing.MediaRouterJellybeanMr1
+----------------------------
+
+isConnecting(java.lang.Object )
+  Loose catch block
+
+
+android.support.v4.media.session.MediaSessionCompat
+----------------------------
+
+getStateWithUpdatedPosition()
+  Unable to fully structure code
+
+
+android.support.v4.os.CancellationSignal
+----------------------------
+
+cancel()
+  Unable to fully structure code
+
+
+android.support.v4.text.ICUCompatIcs
+----------------------------
+
+addLikelySubtags(java.util.Locale )
+  Loose catch block
+getScript(java.lang.String )
+  Loose catch block
+
+
+android.support.v4.util.SimpleArrayMap
+----------------------------
+
+freeArrays(int[] java.lang.Object[] int )
+  Unable to fully structure code
+
+
+android.support.v4.util.DebugUtils
+----------------------------
+
+buildShortClassTag(java.lang.Object java.lang.StringBuilder )
+  Unable to fully structure code
+
+
+android.support.v4.util.TimeUtils
+----------------------------
+
+printField(char[] int char int boolean int )
+  Unable to fully structure code
+
+
+android.support.v4.view.GestureDetectorCompat
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v4.view.PagerTitleStrip
+----------------------------
+
+<init>(android.content.Context android.util.AttributeSet )
+  Unable to fully structure code
+
+
+android.support.v4.view.PagerTabStrip
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v4.view.ViewCompat
+----------------------------
+
+hasAccessibilityDelegate(android.view.View )
+  Loose catch block
+
+
+android.support.v4.view.ViewPager
+----------------------------
+
+calculatePageOffsets(android.support.v4.view.ViewPager$ItemInfo int android.support.v4.view.ViewPager$ItemInfo )
+  Unable to fully structure code
+arrowScroll(int )
+  Unable to fully structure code
+onInterceptTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+populate(int )
+  Unable to fully structure code
+
+
+android.support.v4.widget.DrawerLayout
+----------------------------
+
+onMeasure(int int )
+  Unable to fully structure code
+
+
+android.support.v4.widget.NestedScrollView
+----------------------------
+
+onInterceptTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v4.widget.SlidingPaneLayout
+----------------------------
+
+parallaxOtherViews(float )
+  Unable to fully structure code
+onInterceptTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+onMeasure(int int )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+onViewReleased(android.view.View float float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Statement already marked as first in another block
+
+
+android.support.v4.widget.SwipeRefreshLayout
+----------------------------
+
+onInterceptTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v4.widget.ViewDragHelper
+----------------------------
+
+processTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v7.app.AppCompatDelegateImplV7
+----------------------------
+
+getPanelState(int boolean )
+  Unable to fully structure code
+initializePanelMenu(android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState )
+  Unable to fully structure code
+performPanelShortcut(android.support.v7.app.AppCompatDelegateImplV7$PanelFeatureState int android.view.KeyEvent int )
+  Unable to fully structure code
+shouldInheritContext(android.view.ViewParent )
+  Unable to fully structure code
+createView(android.view.View java.lang.String android.content.Context android.util.AttributeSet )
+  Unable to fully structure code
+startSupportActionModeFromWindow(android.support.v7.view.ActionMode$Callback )
+  Unable to fully structure code
+
+
+android.support.v7.internal.app.AppCompatViewInflater
+----------------------------
+
+createView(android.content.Context java.lang.String java.lang.String )
+  Unable to fully structure code
+createView(android.view.View java.lang.String android.content.Context android.util.AttributeSet boolean boolean boolean )
+  Unable to fully structure code
+
+
+android.support.v7.internal.view.SupportMenuInflater
+----------------------------
+
+parseMenu(org.xmlpull.v1.XmlPullParser android.util.AttributeSet android.view.Menu )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+inflate(int android.view.Menu )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 5[CATCHBLOCK]
+readItem(android.util.AttributeSet )
+  Unable to fully structure code
+
+
+android.support.v7.internal.view.menu.ActionMenuItemView
+----------------------------
+
+updateTextButtonVisibility()
+  Unable to fully structure code
+
+
+android.support.v7.internal.view.menu.MenuPopupHelper
+----------------------------
+
+onSubMenuSelected(android.support.v7.internal.view.menu.SubMenuBuilder )
+  Unable to fully structure code
+
+
+android.support.v7.internal.widget.ActivityChooserModel
+----------------------------
+
+readHistoricalDataImpl()
+  Unable to fully structure code
+doInBackground(java.lang.Object[] )
+  Unable to fully structure code
+
+
+android.support.v7.internal.widget.DrawableUtils
+----------------------------
+
+getOpticalBounds(android.graphics.drawable.Drawable )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+android.support.v7.internal.widget.ToolbarWidgetWrapper
+----------------------------
+
+setNavigationMode(int )
+  Unable to fully structure code
+
+
+android.support.v7.util.SortedList
+----------------------------
+
+add(T boolean )
+  Unable to fully structure code
+dispatchLastEvent()
+  Unable to fully structure code
+
+
+android.support.v7.widget.ActionMenuPresenter
+----------------------------
+
+flagActionItems()
+  Unable to fully structure code
+updateMenuView(boolean )
+  Unable to fully structure code
+<init>(android.support.v7.widget.ActionMenuPresenter android.content.Context android.support.v7.internal.view.menu.SubMenuBuilder )
+  Unable to fully structure code
+
+
+android.support.v7.widget.ActionMenuView
+----------------------------
+
+measureChildForCells(android.view.View int int int int )
+  Unable to fully structure code
+onMeasureExactFormat(int int )
+  Unable to fully structure code
+
+
+android.support.v7.widget.AdapterHelper
+----------------------------
+
+consumeUpdatesInOnePass()
+  Unable to fully structure code
+preProcess()
+  Unable to fully structure code
+
+
+android.support.v7.widget.AppCompatSpinner
+----------------------------
+
+<init>(android.content.Context android.util.AttributeSet int int android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.support.v7.widget.LinearLayoutManager
+----------------------------
+
+fill(android.support.v7.widget.RecyclerView$Recycler android.support.v7.widget.LinearLayoutManager$LayoutState android.support.v7.widget.RecyclerView$State boolean )
+  Unable to fully structure code
+
+
+android.support.v7.widget.SearchView
+----------------------------
+
+updateSubmitArea()
+  Unable to fully structure code
+updateSubmitButton(boolean )
+  Unable to fully structure code
+
+
+android.support.v7.widget.StaggeredGridLayoutManager
+----------------------------
+
+onLayoutChildren(android.support.v7.widget.RecyclerView$Recycler android.support.v7.widget.RecyclerView$State )
+  Unable to fully structure code
+invalidateFullSpansAfter(int )
+  Unable to fully structure code
+
+
+android.support.v7.widget.SuggestionsAdapter
+----------------------------
+
+getDrawable(android.net.Uri )
+  Unable to fully structure code
+
+
+android.support.v7.widget.SwitchCompat
+----------------------------
+
+setSwitchTypefaceByIndex(int int )
+  Unable to fully structure code
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.support.v7.widget.Toolbar
+----------------------------
+
+onLayout(boolean int int int int )
+  Exception : org.benf.cfr.reader.util.CannotPerformDecode: reachable test BLOCK was exited and re-entered.
+updateMenuView(boolean )
+  Unable to fully structure code
+
+
+android.support.v7.widget.ViewInfoStore
+----------------------------
+
+removeViewHolder(android.support.v7.widget.RecyclerView$ViewHolder )
+  Unable to fully structure code
